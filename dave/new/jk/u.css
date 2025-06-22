@@ -1,0 +1,47 @@
+
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 15rem;
+    color: antiquewhite;
+   
+}
+
+.logo-img{
+    width: 40px;
+    margin-right: 10px;
+    margin-left: 2rem;
+    height: auto;
+
+}
+
+.logo-text{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 8px 8px 4px 4px red;
+}
+
+body {
+    background-color: rgb(108, 103, 97);
+    color: red;
+}
+
+.main-nav{}
+
+.main-nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.main-nav a{
+ color: aliceblue;
+ text-decoration: none;
+ padding: 0.5rem;
+ transition: color 0.3s ease;
+}
+
+.main-nav a:hover{
+ color: rgb(5, 138, 255);
+}
