@@ -1,0 +1,105 @@
+html{
+                font-size: 22px;
+            }
+            body{
+                background-color: #333;
+                color: whitesmoke;
+            }
+.nav-button{
+    display: inline-block; padding: 10px 30px; background-color: rgb(140, 142, 12);
+    color: rgb(227, 223, 223) ; text-decoration: none; border-radius: 8px; 
+    font-size: 16px; cursor: pointer; transition: background-color 0.3s ease; margin-left: 4px;
+
+}
+
+.nav-button:hover{
+    background-color: rgb(7, 75, 83);
+}
+
+
+.ATT{
+    position: absolute; top: 10%; left: 50%; 
+    transform: translate(-50%, -50%); color: rgb(157, 93, 20); 
+    font-size: 3rem; text-shadow: 6px 6px 8px rgba(146, 9, 9, 0.7);
+}
+
+.atimg {
+
+    width: 80%; height: 300px; border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+    border: 2px solid #ee4a4a; display: block; 
+    margin: 20px auto;"
+}
+
+
+.nav{
+    
+    list-style-type: none; display: flex; padding: 10PX; 
+    text-align: center; margin-left: 200px;
+}
+
+
+.support{
+
+    padding: 40px 20px; background-color: rgb(31, 20, 20); text-align: center;
+}
+
+
+.support h2 {
+
+    margin-bottom: 10px;
+    color: rgb(15, 216, 45);;
+}
+
+
+.support p {
+
+    margin-bottom: 50px;
+    color: rgb(15, 216, 45);;
+}
+
+.support-form {
+    max-width: 500px; margin: 0 auto;
+    text-align: left;
+}
+
+.support-form label {
+
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(15, 216, 45);
+
+
+}
+
+
+.support-form input, 
+.support-form textarea {
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(110, 115, 134);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.support-form button {
+    padding: 10px 30px; 
+    background-color: rgb(140, 142, 12);
+    color: rgb(227, 223, 223) ; 
+    text-decoration: none; 
+    border-radius: 8px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    
+}
+
+
+.support-form button:hover{
+    background-color: rgb(171, 198, 23);
+}
+
+
