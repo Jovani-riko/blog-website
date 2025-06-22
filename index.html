@@ -1,132 +1,231 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>ATRIOXX</title>
-        <link rel="stylesheet" href="main.css">
-        <link rel="icon" href="https://styles.redditmedia.com/t5_72d7hx/styles/communityIcon_djle7ckbevo91.png">
-    </head>
-    <body>
+<head>
+  <meta charset="UTF-8">
+  <title>Atrioxxx</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="icon" href="https://halo.wiki.gallery/images/d/d8/Banished_Logo.png">
+</head>
+<body>
+  <header class="header">
+    <div class="header-container">
+      <a href="#" class="logo">
+        <img src="https://halo.wiki.gallery/images/d/d8/Banished_Logo.png" alt="Atrioxxx logo" class="logo-img">
+        <span class="logo-text">Atrioxxx</span>
+      </a>
 
-        <div>
-        
-            <img src="" alt="blade pic" class="atimg">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">Blog home</a></li>
+          <li><a href="#">Scams</a></li>
 
-            <h1 class="ATT">ATRIOXX Computer Maintenance Tips</h1>
-        
+          <li class="dropdown">
+            <a href="#">Security</a>
+            <ul class="drp">
+              <li><a href="#">Account Security</a></li>
+              <li><a href="#">Hacking</a>
+              <li><a href="#">Malware</a></li>
+              <li><a href="#">Phishing</a></li>
+              <li><a href="#">Scams</a></li>
+              <li><a href="#">Security-Tips</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">Privacy</a>
+            <ul class="drp">
+                
+                <li><a href="#">Online existance</a></li>
+                <li><a href="#">Identity Protection</a></li>
+                <li><a href="#">VPN</a></li>
+                <li><a href="#">Privacy Tips</a></li>
+             </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Performance</a>
+            <ul class="drp">
+                <li><a href="#">Cleaning</a></li>
+                <li><a href="#">Gaming</a></li>
+                <li><a href="#">Hardware</a></li>
+                <li><a href="#">Software</a></li>
+                 <li><a href="#">Performance Tips</a></li>
+                
+            </ul>
+            
+          </li>
+        </ul>
+
+      </nav>
+
+      <form class="search">
+        <input type="text" placeholder="Search" class="searchinp">
+        <button type="submit" class="searchbtn">&#x1F50D;</button>
+      </form>
+
+      <div class="auth-links">
+        <a href="#" class="myacc">My Account</a>
+        <a href="#" class="login-link">Login</a>
+      </div>
+
+    </div>
+
+
+  </header>
+
+  <main class="blog-home-main">
+    <div class="main-content-wrapper">
+      <section>
+        <div class="featured-content">
+          <img src="https://th.bing.com/th/id/OIP.B8uTwU0ejdNIRkT_XFVpuAHaED?w=333&h=180&c=7&r=0&o=7&dpr=1.6&pid=1.7&rm=3" alt="" class="featured-img">
+          <p class="tag">Featured Article</p>
+          <h2><a href="#">Unmasking Advanced Persistent Threats: <br> A Deep Dive</a></h2> 
+          <p>Explore the sophisticated tactics used by cyber attackers and learn how to defend your systems from APTs.</p>
+          <a href="#" class="btn btn-primary">Read the full story</a>
         </div>
-        
-        
-
-        <header >
-       
-       
-       <!--     <button style="color: whitesmoke; background-color: rgb(57, 57, 125); padding: 8px 16px; border-radius: 9px;"> Hardware</button>-->
-       
-       
-        <nav class="nav">
-            <ul style="list-style-type: none; display: flex; padding: 10PX; text-align: center; margin-left: 200px;">
-                <li><a href="#info" class="nav-button">Introduction</a></li>
-                <li><a href="#hardware" class="nav-button">Hardware</a></li>
-                <li><a href="#software" class="nav-button">Software</a></li>
-                <li><a href="#security" class="nav-button">Security</a></li>
-                <li><a href="#support" class="nav-button">Support</a></li>
-                <li><a href="#contact" class="nav-button">Contact</a></li>
-                
-                
-            </ul>
-        </nav>
-
-        </header>
-
-        <section id="intro">
-            <h2>Introduction</h2>
-            <p>Welcome to Atrioxx where you can learn simple and effective tips to keep your computer running smoothly!</p>
-        </section>
-
-        <section id="hardware">
-        <h2>Hardware Maintenance Tips</h2>
-        <p>Regular hardware maintenance keeps your computer running efficiently. Clean out dust, ensure fans work, and consider reapplying CPU thermal paste. Check hard drives for errors, defragment regularly, secure all cables, use surge protectors, and inspect batteries and hardware components for damage.</p>
-        <ul>
-            <li>Keep your computer clean and dust-free</li>
-                                        
-            <div style="display: flex; gap: 10px;">
-                <img src="https://media.cnn.com/api/v1/images/stellar/prod/200310141142-underscored-cleaning-laptop-keyboard.jpg?q=x_4,y_0,h_2173,w_3861,c_crop/h_270,w_480" alt="laptop cleaning" height="200px" width="300px">
-                <img src="https://th.bing.com/th/id/OIP.R8z-k6NTZa4-Tt9mShmBggHaEH?pid=ImgDet&w=206&h=114&c=7&dpr=1.6&cb=idpwebpc1" alt="adding thermal paste" height="200px" width="300px">
-                
-                
-           
-           
+      </section>
+      <section class="recent-posts">
+        <h2>Recent Articles</h2>
+        <div class="post-grid">
+          <article class="blog-post-card">
+            <img src="" alt="security tips" class="post-image">
+            <div>
+              <h3><a href="#">Top 10 Cybersecurity Tips for 2025</a></h3>
+              <p class="post-meta">By Atrioxx|June 19, 2025| Security</p>
+              <p>Learn how to protect yourself from the latest online threats with thiese essential cybersecurity practices.</p>
+              <a href="#" class="read-more">Read More &raquo;</a>
             </div>
+          </article>
 
-            <br>
+          <article class="blog-post-card">
+            <img src="" alt="security tips" class="post-image">
+            <div>
+              <h3><a href="#">Mastering Your Online Privacy in a Digital World</a></h3>              
+              <p class="post-meta">By Atrioxx|APR 1, 2025| Security</p>
+              <p>Discover advanced techniques to safeguard your personal information and maintain anonymity online.</p>
+              <a href="#" class="read-more">Read More &raquo;</a>
+            </div>
+          </article>
 
-            <li>Laptop Hinges</li>
-                <p>Laptop hinges are essential but are among the most frequently and easily damaged parts. Rough handling, side-opening, or dirt can cause them to loosen or break, potentially harming the screen or internal cables. Open the lid gently from the center and keep hinges clean to extend their lifespan.</p>
+           <article class="blog-post-card">
+            <img src="https://via.placeholder.com/400x250/333/eee?text=PC+Performance" alt="PC Performance" class="post-image">
+            <div class="post-content">
+              <h3><a href="#">Boost Your PC Performance: A Comprehensive Guide</a></h3>
+              <p class="post-meta">By Atrioxx | Sep 05, 2024 | Performance</p>
+              <p>Unlock the full potential of your computer with these proven methods for optimization and speed.</p>
+              <a href="#" class="read-more">Read More &raquo;</a>
+            </div>
+          </article>
 
-                <div style="display: flex; gap: 10px;">
-                    <img src="https://valkyrie.cdn.ifixit.com/media/2019/08/16083521/hinge-screws-1-1536x864.jpg" alt="laptop hinge img" height="200" width="300">
-                
-                </div>
+          <article class="blog-post-card">
+            <img src="https://halo.wiki.gallery/images/d/d8/Banished_Logo.png" alt="PC Performance" class="post-image">
+            <div>
+              <h3><a href="#">Mastering Your Online Privacy in a Digital World</a></h3>              
+              <p class="post-meta">By Atrioxx|APR 1, 2025| Privacy</p>
+              <p>Discover advanced techniques to safeguard your personal information and maintain anonymity online.</p>
+              <a href="#" class="read-more">Read More &raquo;</a>
+            </div>
+          </article>
 
-        </ul>
-        </section>
+           <article class="blog-post-card">
+            <img src="https://halo.wiki.gallery/images/d/d8/Banished_Logo.png" alt="PC Performance" class="post-image">
+            <div class="post-content">
+              <h3><a href="#">Boost Your PC Performance: A Comprehensive Guide</a></h3>
+              <p class="post-meta">By Atrioxx | Sep 05, 2024 | Performance</p>
+              <p>Unlock the full potential of your computer with these proven methods for optimization and speed.</p>
+              <a href="#" class="read-more">Read More &raquo;</a>
+            </div>
+          </article>
 
-        <section id="software">
-            <h2>Software Maintenance Tips</h2>
-            <ul>
-                <li>Regularly update your operating system and software</li>
-                <li>Uninstall unused programs to free up space.</li>
-                <li>use disk cleanup tools to remove junk files.</li>
-                <li>Defragment your hard drive (if using HDD).</li>
-            </ul>
-        </section>
+          <article class="blog-post-card">
+            <img src="https://th.bing.com/th/id/R.3476276bbc47aa45aa273d54bf8c631b?rik=RiBdN937%2f6xseA&riu=http%3a%2f%2fwww.baltana.com%2ffiles%2fwallpapers-1%2fHalo-Wars-2-Warrior-Beast-Wallpaper-00987.jpg&ehk=RpMNeQfGkGcJSQCNBpHUD0A%2frTmQhurkM%2b5iZ1Gl9sg%3d&risl=&pid=ImgRaw&r=0" alt="Scam Awareness" class="post-image">
+            <div>
+              <h3><a href="#">Spotting Phishing Scams: A Beginner's Guide</a></h3>
+              <p class="post-meta">By Atrioxx | Jan 20, 2025 | Scams</p>
+              <p>Learn to identify common phishing attempts and protect your sensitive information from cybercriminals.</p>
+              <a href="#" class="read-more">Read More &raquo;</a>
+            </div>
+          </article>
+
+          <article class="blog-post-card">
+            <img src="https://halo.wiki.gallery/images/d/d8/Banished_Logo.png" alt="Account Security" class="post-image">
+            <div>
+              <h3><a href="#">Fortifying Your Online Accounts with 2FA</a></h3>
+              <p class="post-meta">By Atrioxx | Feb 10, 2025 | Security</p>
+              <p>Implement two-factor authentication for an extra layer of security on all your digital accounts.</p>
+              <a href="#" class="read-more">Read More &raquo;</a>
+            </div>
+          </article>
+
+          <article class="blog-post-card">
+            <img src="https://halo.wiki.gallery/images/d/d8/Banished_Logo.png" alt="Malware Protection" class="post-image">
+            <div>
+              <h3><a href="#">Understanding Malware: Types and Prevention</a></h3>
+              <p class="post-meta">By Atrioxx | Mar 15, 2025 | Security</p>
+              <p>Get insights into various forms of malware and best practices to keep your devices safe.</p>
+              <a href="#" class="read-more">Read More &raquo;</a>
+            </div>
+          </article>
+
+          <article class="blog-post-card">
+            <img src="https://halo.wiki.gallery/images/d/d8/Banished_Logo.png" alt="VPN Guide" class="post-image">
+            <div>
+              <h3><a href="#">Choosing the Right VPN: A Comprehensive Review</a></h3>
+              <p class="post-meta">By Atrioxx | Apr 22, 2025 | Privacy</p>
+              <p>Navigate the world of VPNs and pick the best service for your online privacy needs.</p>
+              <a href="#" class="read-more">Read More &raquo;</a>
+            </div>
+          </article>
+
+          <article class="blog-post-card">
+            <img src="https://halo.wiki.gallery/images/d/d8/Banished_Logo.png" alt="Gaming Optimization" class="post-image">
+            <div>
+              <h3><a href="#">Optimize Your PC for Gaming: Maximize FPS and Performance</a></h3>
+              <p class="post-meta">By Atrioxx | May 01, 2025 | Performance</p>
+              <p>Tweaks and tips to get the most out of your gaming rig for a smoother experience.</p>
+              <a href="#" class="read-more">Read More &raquo;</a>
+            </div>
+          </article>
+
+          <article class="blog-post-card">
+            <img src="https://halo.wiki.gallery/images/d/d8/Banished_Logo.png" alt="Identity Theft Prevention" class="post-image">
+            <div>
+              <h3><a href="#">Protecting Your Digital Identity: Essential Strategies</a></h3>
+              <p class="post-meta">By Atrioxx | Jun 05, 2025 | Privacy</p>
+              <p>Learn crucial steps to prevent identity theft and secure your personal information online.</p>
+              <a href="#" class="read-more">Read More &raquo;</a>
+            </div>
+          </article>
 
 
-<section id="security">
-        <h2>Security Tips</h2>
-        <ul>
-            <li>Install a reliable antivirus program.</li>
-            <li>Use strong, unique passwords.</li>
-            <li>Back up your data regularly.</li>
-            <li>Be cautious when opening email attachments or clicking links.</li>
-        </ul>
-    </section>
+        </div>
 
+      </section>
 
-    <hr>
-
-    <section id="support" class="support">
-
-        <h2>Ask a Question</h2>
-        <p>Need help? Send us your question and our support team will get back to you</p>
-
-        <form action="https://formspree.io/f/mblyyabd" method="post" class="support-form">
-           
-           
-            <label for="email">Your Email</label>
-            <input type="email" name="email" id="email" required>
-
-            <label for="message">Your Question</label>
-            <textarea name="message" id="message" rows="4" required></textarea>
-            <button type="submit">Send</button>
-
-
-        </form>
-    </section>
-
-    <hr>
-
-    <footer id="contact">
-        <h2>Contact Us</h2>
-        <p>Email:support@Atrioxx.com</p>
-        <p>phone: +251-911-123456</p>
-    </footer>
-
-
-    </body>
+      <aside class="sidebar">
+        <div class="sidebar-widget">
+          <h3>Catagories</h3>
+          <ul>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Performance</a></li>
+            <li><a href="#">Scams</a></li>
+            <li><a href="#">Tips</a></li>
+          </ul>
+        </div>
+        <div class="side">
+          <h3>Popular Posts</h3>
+          <ul>
+            <li><a href="#">The Ultimate VPN Guide</a></li>
+            <li><a href="#">Hardware Upgrade</a></li>
+            <li><a href="#">Is Your Identity Safe Online?</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+ </main>
 
 
 
+
+</body>
 </html>
