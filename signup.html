@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://halo.wiki.gallery/images/d/d8/Banished_Logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <title>Sign up to Atrioxxx</title>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="w3s.html" class="logo">
+                <img src="https://halo.wiki.gallery/images/d/d8/Banished_Logo.png" alt="Atrioxxx logo-img" class="logo-img">
+                <span class="logo-text">Atrioxxx</span>
+            </a>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="w3s.html">Blog home</a></li>
+                    <li><a href="#">Scams</a></li>
+                    <li class="dropdown">
+                        <a href="#">Security</a>
+                        <ul class="drp">
+                            <li><a href="#">Account Security</a></li>
+                            <li><a href="#">Hacking</a></li>
+                            <li><a href="#">Malware</a></li>
+                            <li><a href="#">Phishing</a></li>
+                            <li><a href="#">Scams</a></li>
+                            <li><a href="#">Security-Tips</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#">Privacy</a>
+                        <ul class="drp">
+                            <li><a href="#">Online existance</a></li>
+                            <li><a href="#">Identity protection</a></li>
+                            <li><a href="#">VPN</a></li>
+                            <li><a href="#">Privacy tips</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#">Performance</a>
+                        <ul class="drp">
+                            <li><a href="#">cleaning</a></li>
+                            <li><a href="#">Gaming</a></li>
+                            <li><a href="#">Hardware</a></li>
+                            <li><a href="#">Software</a></li>
+                            <li><a href="#">Performance tips</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+            </nav>
+            <form class="search">
+                <input type="text" placeholder="search" class="searchinp">
+                <button type="submit" class="searchbtn">&#x1F50D;</button>
+            </form>
+            <div class="auth-links">
+                <a href="#" class="myacc">Sign Up</a>
+                <a href="loginw3.html" class="login-link">Login</a>
+
+            </div>
+        </div>
+    </header>
+
+    <main class="auth-main">
+        <div class="auth-card">
+            <h2>Sign up for Atrioxxx</h2>
+            <form id="signupform" action="#" method="post">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required autocomplete="username">
+                    <span id="usernameError" class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email adress</label>
+                    <input type="email" id="email" name="email" required autocomplete="email">
+                    <span id="emailError" class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone number</label>
+                    <input type="tel" id="phone" name="phone" required autocomplete="tel">
+                    <span id="phoneError" class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required autocomplete="new-password">
+                    <span id="passwordEroor" class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required autocomplete="new-password"> 
+                    <span id="confirmPasswordError" class="error-message"></span>
+                </div>
+                <button type="submit" class="auth-button">Sign Up</button>
+            
+            </form>
+            <div class="auth-links">
+                <a href="loginw3.html">Already have an accout? Login</a>
+
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>About Atrioxxx</h3>
+                <p>Your go-to source for insightful articles, tech trends, and creative content. We strive to bring you the best and most engaging reads.</p>
+
+            </div>
+
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section content">
+                <h3>Contact Info</h3>
+                <p>Email: banished@Atrioxxx.com</p>
+                <p>phone: +123 456 7890 </p>
+                <p>Adress: 123 Adwa Street, Adwa, Abysinya</p>
+            </div>
+
+
+        </div>
+        <div class="footer-section copyright">
+            <P>&copy; <span id="current-year"></span> Atrioxx. All Rights Reserved.</P>
+        </div>
+    </footer>
+
+    <script src="mj.js"></script>
+</body>
+</html>
